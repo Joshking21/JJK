@@ -1,0 +1,295 @@
+
+@media(min-width: 410px) and (max-width: 540px ){
+    nav{
+   
+        margin-left: 0rem;
+        display: flex;
+       
+        height: 3rem;
+        margin-bottom:0rem;
+       padding-bottom: 0rem;
+       
+       margin-left: 1.4rem;
+    }
+  
+ .body2{
+    margin-left:1.17rem ;
+ height: fit-content;
+ overflow-x: hidden;
+   
+
+  } 
+  a{
+    margin-right: 1rem;
+  }
+  .socialIcon{
+    width: 2rem;
+    height: 2rem;
+  }
+  .profileicon{
+    width: 3rem;
+    height: 3rem;
+  }
+  .exicon{
+    width: 3rem;
+    height: 3rem;
+  }
+  .script{
+    flex-direction: column;
+  }
+.aboutD{
+    width: 100%;
+    margin-left: 0rem;
+    overflow-y: visible;
+    height: fit-content;
+}
+
+.Experience{
+    width: 100%;
+    margin-top: 2rem;
+    border-left-style: none;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    padding-top: 2rem;
+    margin-left: 0rem;
+}
+.inn{
+    margin-left: 0.3rem;
+    margin-right: 4rem;
+    border-right: rem;
+    width: 27%;
+}
+.josh{
+    height: 2rem;
+    width: 2rem;
+   margin-right: 4rem;
+
+}
+.slid{
+    margin-left: 1rem;
+    margin-top: 0.1rem;
+    padding-top: 2.5rem;
+    height: 22rem;
+   
+   overflow-x: hidden;
+
+}
+.profileSection{
+    flex-direction: column;
+}
+.picturSpace{
+  margin-left: 15%;
+}
+.Socialsec{
+    flex-direction: column;
+}
+.PortfolioShit{
+    width: 100%;
+    height: fit-content;
+    margin-right: orem;
+    margin-left: -1rem;
+    border-bottom-style: solid ;
+    border-bottom-color: #2e424d;
+    border-bottom-width: 0.2rem;
+}
+
+.p1{
+    overflow: visible;
+}
+.pr{
+    margin-left: 1rem;
+}
+.pr{
+    margin-right: 1.5rem;
+}
+.frim{
+    margin-right: 2rem;
+    margin-bottom: 0rem;
+}
+.portPh1{
+    width: 11rem;
+   
+    margin-left: rem;
+  
+}
+.ssd{
+    width: 7rem;
+    padding-left: 0rem;
+    margin-left: 1rem;
+   
+   
+}
+.portp{
+    margin-left: -1rem;
+}
+.web{
+    font-size: 2rem;
+    color: #2e424d;
+    font-weight: bolder;
+}
+.front{
+   margin-top: 4rem;
+    width: 100%;
+    margin-left: 0rem;
+   
+}
+.jks{
+    align-content: center;
+    align-items: center;
+
+width:100%;
+margin-left: 0rem;
+margin-top: 3rem;
+margin-left: 3rem;
+
+}
+ul{
+    margin-left: 1rem;
+    
+}
+li{
+    margin-right: 1.5rem;
+}
+ .sec1{
+ margin-left: 0rem;
+ width: 100%;
+background-image: url('Joshua\ Profile.jpg') ;
+background-size: cover;
+}
+.hello{
+    margin-left: 0rem;
+}
+.Im{
+    margin-left: 1rem;
+    margin-top: -2rem;
+    margin-bottom: 3rem;
+}
+.joshua{
+    font-size: 3.2rem;
+    margin-left: 0rem;
+    width:fit-content;
+}
+.CVbutton{
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.joshPic{
+    width: 100%;
+    display: none;
+}
+.socialPic{
+    width: 2rem;
+    height: 2rem;
+}
+.firstUndderline{
+    display: flex;
+}
+.first{
+    border-bottom-style: solid ;
+    border-bottom-color: #2e424d;
+    border-bottom-width: 0.1rem;
+    margin-bottom: 1rem;
+}
+.third{
+    border-bottom-style: none ;
+
+    margin-bottom: 0rem;
+}
+.normalNav{
+    display: flex;
+    margin-left: 4rem;
+
+}
+.porticon{
+    padding-top: 0.5rem;
+}
+.concicon{
+    padding-top: 0.5rem;
+}
+.textNav{
+    display: none;
+}
+.ContactSec{
+    overflow: visible;
+}
+.ContactSec2{
+    overflow: visible;
+}
+.gmailPic{
+    width: 5rem;
+    height:5rem;
+}
+.gmailContact{
+    display: none;
+}
+.firstUndderline{
+    display: none;
+}
+.secondUnderline{
+    margin-top: 1rem;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1rem;
+
+}
+
+
+
+.contactList{   height: 25rem;
+  
+    width: 10rem;
+    
+display: flex;
+flex-direction: column-reverse;   
+margin-left: 0rem; 
+margin-top: 4rem
+;
+}
+.contactList li{
+    margin-bottom: 5rem;
+}
+
+
+.ContactSec{
+
+margin: 0;
+
+}
+.c2{
+overflow: visible;
+width: 18.2rem;
+
+transform: translateX(-314%);
+margin-left: rem;
+height: 24rem;
+background-color: #2e424d;
+background-image: linear-gradient(#2e424d 0%, #2e424d 97%, #6594AD);
+
+
+}
+.sendDiv{
+flex-direction: column;
+}
+.nameInput{
+width: 15rem;
+height: 2rem;
+margin-bottom: 1rem;
+}
+.emailInput{
+margin-left: 1rem;
+}
+.mainText{
+margin-left: rem;
+margin-top: 1.5rem;
+width: 88%;
+height: 30%;
+margin-left: 1rem;
+}
+.sendButton{
+margin-left: 4rem;
+}
+}
+
+
+

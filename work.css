@@ -1,0 +1,1360 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+.backCss {
+  width: 1.6rem;
+  background-color: #fff;
+  height: 0.3rem;
+  margin-top: 1rem;
+  border-radius: rem;
+  transform: translateY(1.5px) translateX(1px) rotate(-38deg);
+}
+.backCss2 {
+  width: 1.65rem;
+  background-color: #fff;
+  height: 0.3rem;
+  margin: 0.2rem;
+  margin-top: 0.2rem;
+  border-radius: rem;
+
+  transform: translateY(-5px) translateX(-1px) rotate(42deg);
+}
+.backImg {
+  float: right;
+
+  height: 3rem;
+}
+.backImg:hover {
+  opacity: 0.8;
+}
+.emailDiv {
+  cursor: pointer;
+}
+.whatsappDiv {
+  cursor: pointer;
+}
+body {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: fit-content;
+}
+.a:cli {
+  transform: translateY(-20%);
+}
+.button1:hover {
+  opacity: 0.9;
+}
+.button2:hover {
+  opacity: 0.9;
+}
+.Cloud2 {
+  width: 3rem;
+  height: 2rem;
+  object-fit: cover;
+}
+.GitPic {
+  width: 3rem;
+  height: 2.7rem;
+  padding-left: 1.6rem;
+}
+
+.profileicon {
+  width: 3rem;
+  height: 3rem;
+}
+.socialIcon {
+  width: 2rem;
+  height: 2rem;
+}
+
+nav {
+  display: flex;
+
+  height: 3rem;
+
+  margin-bottom: 2rem;
+  justify-content: left;
+  align-items: center;
+  padding-top: 1rem;
+  box-shadow: 0px 10px 5px rgb(46, 66, 77, 0.2);
+}
+
+.normalNav {
+  margin-top: 0rem;
+  margin-left: 1rem;
+  display: none;
+}
+.concicon {
+  margin-right: 22rem;
+}
+
+.exicon {
+  width: 4rem;
+  height: 4rem;
+}
+.exicon:hover {
+  content: url("expertise.png");
+}
+.socicon:hover {
+  content: url("Social Media free icons designed by Freepik.png");
+}
+.profileicon:hover {
+  content: url("profile white 2 (1).png");
+}
+.porticon:hover {
+  content: url("Portfolio1.png");
+}
+.concicon:hover {
+  content: url("contact icon.png");
+}
+
+.fb:hover {
+  content: url("facebook2.png");
+}
+.twi:hover {
+  content: url("Twitter2.png");
+}
+.dis:hover {
+  content: url("discord2.png");
+}
+.link:hover {
+  content: url("Linkend2.png");
+}
+.profileSection {
+  display: flex;
+  flex-direction: row;
+}
+.lin {
+  margin-top: -1rem;
+}
+.body2 {
+  width: 90%;
+  color: wheat;
+  height: 90%;
+  margin: 2rem;
+  margin-left: 3.5rem;
+  position: absolute;
+  background-color: #5b8291;
+}
+.ballsMainDiv {
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+  width: 50%;
+
+  margin-left: rem;
+  animation: rotateDivs 8s linear infinite;
+}
+@keyframes rotateDivs {
+  0% {
+    /* transform: translate(7rem, 5rem); */
+    transform: rotate(0deg) translateX(0rem);
+  }
+  25% {
+    transform: rotate(180deg) translateX(rem);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.rotationDiv {
+  animation: translationDivs 8s linear infinite;
+
+  width: fit-content;
+}
+
+@keyframes translationDivs {
+  0% {
+    /* transform: translate(7rem, 5rem); */
+    transform: translateX(0rem);
+  }
+  25% {
+    transform: translateX(90vw);
+  }
+  50% {
+    transform: translateY(90vh);
+  }
+  100% {
+  }
+}
+.rollingBall {
+  width: 6rem;
+  height: 7rem;
+  border-radius: 50%;
+  filter: blur(15px);
+
+  transition: transform 3s ease-in-out;
+}
+.balls {
+  width: 11rem;
+  height: 11rem;
+  border-radius: 50%;
+  filter: blur(15px);
+  transition: transform 1s ease-in-out;
+  position: absolute;
+}
+.rollingBall2 {
+  margin-left: 14.4rem;
+  background-color: orange;
+}
+.rollingBall3 {
+  background-color: red;
+  margin-right: 10rem;
+}
+.rollingBall4 {
+  margin-top: 14.4rem;
+  background-color: green;
+}
+.rollingBall5 {
+  margin-top: 14.4rem;
+  margin-left: 14.4rem;
+  background-color: #c3c5ca;
+}
+/* @keyframes circleMotion{
+    25%
+        transform: translate(7rem, 5rem);
+    }
+    50%{
+        transform: translate(-7rem, 10rem);
+    }
+} */
+a {
+  display: inline;
+  justify-content: space-evenly;
+  margin-right: 1rem;
+  color: #2e424d;
+}
+
+.telephoneDiv {
+  cursor: pointer;
+}
+.sendButton {
+  cursor: pointer;
+}
+
+.a:hover {
+  color: #2e424d;
+}
+.b:hover {
+  color: #2e424d;
+}
+.c:hover {
+  color: #2e424d;
+}
+.d:hover {
+  color: #2e424d;
+}
+.e:hover {
+  color: #2e424d;
+}
+
+.sec1 {
+  /*background-image: linear-gradient(to bottom,rgb(192, 185, 185) 90%, black);*/
+  width: 50%;
+
+  height: 20rem;
+  margin-right: 2rem;
+  margin-left: 1rem;
+
+  border-radius: 3px;
+  border-style: initial;
+  color: #eaebed;
+}
+.joshPic {
+  width: 23rem;
+  height: 23rem;
+  border-radius: 20%;
+  margin-bottom: 0.5rem;
+}
+.hello {
+  font-size: 3rem;
+  font-display: auto;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+
+  width: fit-content;
+}
+.Im {
+  margin-left: 2rem;
+  font-size: xx-large;
+
+  margin-top: 0rem;
+  width: fit-content;
+}
+.joshua {
+  font-weight: 1000;
+  font-size: 5.5rem;
+  margin-top: -2rem;
+  margin-left: 7rem;
+  color: #2e424d;
+  width: 50%;
+  height: fit-content;
+}
+.web {
+  font-size: 3rem;
+  font-weight: 1000;
+}
+.jks {
+  align-content: center;
+  align-items: center;
+
+  width: 50%;
+  margin-left: 20rem;
+  margin-top: 6rem;
+}
+.front {
+  text-align: center;
+  position: absolute;
+  width: 60%;
+  margin-left: -3rem;
+}
+.CVbutton {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: end;
+}
+.button1 {
+  background-color: #2e424d;
+  color: #eaebed;
+  width: 6rem;
+  height: 2.9rem;
+  border-radius: 30px;
+  border-style: none;
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.button2 {
+  background-color: #eaebed;
+  color: #2e424d;
+  display: flex;
+  flex-direction: row;
+  margin-right: rem;
+  width: 10rem;
+  justify-content: center;
+  align-items: center;
+  height: 2.9rem;
+  border-radius: 30px;
+  border-color: aliceblue;
+  border-style: none;
+}
+
+div {
+  color: white;
+}
+
+.About {
+  text-decoration: underline;
+  text-align: center;
+  font-weight: 1000;
+  font-size: 35px;
+  color: #2e424d;
+
+  text-decoration-color: #5b8291;
+}
+.About::after {
+  background-color: red;
+  height: 3rem;
+  width: 3rem;
+}
+.aboutD {
+  /* background-image: linear-gradient(to bottom,rgb(192, 185, 185) 90%, black);*/
+
+  color: #eaebed;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: -2.5rem;
+  font-size: 1.65rem;
+  width: 50%;
+  margin-left: 2rem;
+  border-radius: 3px;
+  height: 12rem;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.p1 {
+  width: fit-content;
+  height: fit-content;
+}
+.jeje {
+  height: fit-content;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+.ExpertiseSection {
+  flex-direction: column;
+  margin-top: 3.5rem;
+  display: none;
+}
+.Experience {
+  background-color: #5b8291;
+
+  width: 50%;
+  margin-top: -2.5rem;
+  border-left-style: solid;
+  margin-left: 1rem;
+}
+.script {
+  display: flex;
+}
+
+.expertisehead {
+  text-decoration: underline;
+  font-size: 2.5rem;
+}
+ul {
+  display: flex;
+
+  list-style: none;
+
+  margin-left: 4rem;
+
+  margin-top: -1rem;
+}
+.textNav li {
+  margin-right: 2rem;
+  color: #eaebed;
+}
+.textNav ul {
+  margin-left: 1.5rem;
+}
+.textNav {
+  margin-right: 9rem;
+}
+.socialPic {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+nav {
+  justify-content: space-between;
+}
+
+li {
+  margin-right: 2.5rem;
+  align-items: center;
+  text-align: center;
+}
+
+.Socialsec {
+  width: 100%;
+  display: none;
+  flex-direction: row;
+
+  font-style: italic;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  /*border-style:solid ;*/
+  margin-left: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.linkimg {
+  height: 60px;
+  width: 60px;
+  padding-left: 80px;
+}
+.ContactSec {
+  height: 25rem;
+
+  width: 52rem;
+  margin-left: 10%;
+  background-color: rgb(101, 148, 173);
+}
+.contact {
+  display: none;
+}
+.body2 {
+  overflow-x: hidden;
+}
+.c2 {
+  width: 40rem;
+
+  transform: translateX(100%);
+  height: 25rem;
+  float: right;
+
+  margin-left: 5rem;
+  transition: transform 0.8s ease-in-out;
+  background-color: #2e424d;
+}
+
+.name {
+}
+.nameInput {
+  width: 10rem;
+  height: 2rem;
+  background-color: rgb(46, 66, 77, 0.2);
+  border-color: #5b8291;
+  border-style: ridge;
+  color: #eaebed;
+}
+.nameInput::placeholder {
+  color: #c3c5ca;
+  opacity: 0.5;
+}
+.mainText::placeholder {
+  color: #c3c5ca;
+  opacity: 0.5;
+}
+.send {
+  margin-right: 3rem;
+  margin-left: 1rem;
+}
+.mainText {
+  background-color: rgb(46, 66, 77, 0.2);
+  border-color: #5b8291;
+  border-style: ridge;
+  height: 50%;
+  margin-top: 1.5rem;
+  width: 84.5%;
+  margin-left: 2rem;
+  display: flex;
+  vertical-align: top;
+
+  color: #c3c5ca;
+}
+
+.sendButton {
+  display: flex;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  border-radius: 0.5rem;
+  width: 10rem;
+  align-items: center;
+  background-color: #5b8291;
+  color: #2e424d;
+  font-style: italic;
+  font-weight: bold;
+  border-style: none;
+
+  padding-left: 0.3rem;
+}
+.sendButton:hover {
+  opacity: 0.8;
+}
+.sendPic {
+  margin-left: 1rem;
+}
+
+.contactSection {
+}
+.underlinedIcons {
+  height: 90%;
+  margin-top: 1rem;
+}
+
+.slid {
+  width: 90%;
+  margin: 1rem;
+  height: 11rem;
+  padding-top: 3rem;
+  margin-top: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+.kk {
+  margin-bottom: 1.5rem;
+  height: 14%;
+  display: flex;
+  color: #2e424d;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: oblique;
+  font-weight: 1000;
+  font-size: larger;
+}
+.inn {
+  font-size: large;
+  display: flex;
+  align-items: center;
+  border-radius: 2px;
+
+  width: 17%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-right: 10rem;
+  margin-left: 5rem;
+  /*border-style: solid;*/
+  background-color: #2e424d;
+  letter-spacing: 0.1rem;
+  font-weight: 1000;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.exp1 {
+  display: flex;
+}
+
+.josh {
+  height: 4.5rem;
+  width: 4.5rem;
+  margin-right: 15rem;
+  margin-top: -1.5rem;
+  border-radius: 50%;
+  transition: ease 1s;
+}
+.josh:hover {
+  transform: translateY(-1rem);
+}
+.picturSpace {
+  display: flex;
+  flex-direction: row;
+  margin-left: 19%;
+  height: fit-content;
+  width: fit-content;
+}
+.appDevContents {
+  text-align: center;
+
+  overflow-wrap: break-word;
+}
+.apphead {
+  text-align: center;
+  color: #2e424d;
+  font-size: x-large;
+}
+.webDevContents {
+  width: 100%;
+}
+
+.webhead {
+  text-align: center;
+  color: #2e424d;
+  font-size: x-large;
+}
+.backhead {
+  text-align: center;
+  font-size: x-large;
+}
+.webContents {
+  max-width: 100%;
+  position: relative;
+}
+.backhead {
+  color: #2e424d;
+}
+
+.webs {
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+}
+.PortfolioShit {
+  width: 33%;
+  margin-right: 0.5rem;
+  border-right: #2e424d;
+  border-right-style: solid;
+  height: 22rem;
+}
+.p1 {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+h1 {
+  text-align: center;
+}
+.programs {
+  width: 60%;
+  background-color: #98dad9;
+  height: 0.8rem;
+  border-radius: 2rem;
+
+  align-self: center;
+}
+.e1 {
+  background: linear-gradient(to right, #2e424d 95%, #98dad9 5%);
+}
+.e2 {
+  background: linear-gradient(to right, #2e424d 95%, #98dad9 5%);
+}
+.e3 {
+  background: linear-gradient(to right, #2e424d 85%, #98dad9 15%);
+}
+.e4 {
+  background: linear-gradient(to right, #2e424d 60%, #98dad9 40%);
+}
+.fl {
+  display: flex;
+  flex-direction: row;
+}
+.pr {
+  background-color: #2e424d;
+  border-radius: 1rem;
+  width: 25%;
+  height: 1.8rem;
+  margin-bottom: 1rem;
+  margin-right: 2rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.frim {
+  width: 4rem;
+  margin-right: 4rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  transition: transform 1s ease-in-out;
+}
+.frim1:hover,
+.frim2:hover,
+.frim3:hover {
+  transform: scale(1.2);
+}
+.fri {
+  margin-left: 0rem;
+  margin-top: 1rem;
+}
+.Frameworks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  justify-self: center;
+  margin-left: 0.1rem;
+}
+.gitimg {
+  width: 9rem;
+  height: 9rem;
+}
+.navdiv {
+  padding-bottom: -1rem;
+}
+.portimg {
+  width: 9rem;
+  height: 9rem;
+}
+.secondUnderline {
+  margin-bottom: 1rem;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding-left: 1rem;
+}
+.first {
+  display: flex;
+  flex-direction: row;
+  border-bottom: #2e424d 1px solid;
+  margin-top: 1rem;
+}
+
+.portPh {
+  margin-left: 1rem;
+
+  width: fit-content;
+  height: fit-content;
+  text-decoration: underline;
+
+  text-decoration-color: #2e424d;
+}
+
+.portPh1 {
+  width: 10rem;
+  margin-left: 1em;
+
+  height: 9rem;
+  overflow-wrap: break-word;
+  margin-top: 0.4rem;
+  margin-bottom: 3rem;
+
+}
+.git1 {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 0.5rem;
+  border-radius: 0.9rem;
+}
+.ssd {
+  width: fit-content;
+}
+.underlinedIcons ul {
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-left: 10rem;
+}
+.underlinedIcons li {
+  margin-right: 10rem;
+}
+@media (min-width: 321px) and (max-width: 420px) and (max-height: 910px) {
+  nav {
+    margin-left: 0rem;
+    display: flex;
+
+    height: 3rem;
+    margin-bottom: 0rem;
+    padding-bottom: 0rem;
+  }
+
+  .body2 {
+    margin-left: 1.17rem;
+    height: fit-content;
+    overflow-x: hidden;
+  }
+  a {
+    margin-right: 1rem;
+  }
+  .socialIcon {
+    width: 2rem;
+    height: 2rem;
+  }
+  .profileicon {
+    width: 3rem;
+    height: 3rem;
+  }
+  .exicon {
+    width: 3rem;
+    height: 3rem;
+  }
+  .script {
+    flex-direction: column;
+  }
+  .aboutD {
+    width: 100%;
+    margin-left: 0rem;
+    overflow-y: visible;
+    height: fit-content;
+  }
+  .Experience {
+    width: 100%;
+    margin-top: 2rem;
+    border-left-style: none;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    padding-top: 2rem;
+    margin-left: 0rem;
+  }
+  .inn {
+    margin-left: 0.3rem;
+    margin-right: 4rem;
+    border-right: rem;
+    width: 27%;
+  }
+  .josh {
+    height: 2rem;
+    width: 2rem;
+    margin-right: 4rem;
+  }
+  .slid {
+    margin-left: 1rem;
+    margin-top: 0.1rem;
+    padding-top: 2.5rem;
+    height: 22rem;
+
+    overflow-x: hidden;
+  }
+  .profileSection {
+    flex-direction: column;
+  }
+  .picturSpace {
+    margin-left: 15%;
+  }
+  .Socialsec {
+    flex-direction: column;
+  }
+  .PortfolioShit {
+    width: 100%;
+    height: fit-content;
+    margin-right: orem;
+    margin-left: -1rem;
+    border-bottom-style: solid;
+    border-bottom-color: #2e424d;
+    border-bottom-width: 0.2rem;
+  }
+
+  .p1 {
+    overflow: visible;
+  }
+  .pr {
+    margin-left: 1rem;
+  }
+  .pr {
+    margin-right: 1.5rem;
+  }
+  .frim {
+    margin-right: 2rem;
+    margin-bottom: 0rem;
+  }
+  .portPh1 {
+    width: 11rem;
+
+    margin-left: rem;
+  }
+  .ssd {
+    width: 7rem;
+    padding-left: 0rem;
+    margin-left: 1rem;
+  }
+  .portp {
+    margin-left: -1rem;
+  }
+  .web {
+    font-size: 2rem;
+  }
+  .front {
+    background-color: #eaebed;
+    width: 100%;
+    margin-left: 0rem;
+  }
+  .jks {
+    align-content: center;
+    align-items: center;
+
+    width: 100%;
+    margin-left: 0rem;
+    margin-top: 3rem;
+    margin-left: 3rem;
+  }
+  ul {
+    margin-left: 1rem;
+  }
+  li {
+    margin-right: 1.5rem;
+  }
+  .sec1 {
+    margin-left: 0rem;
+    width: 100%;
+    background-image: url("Joshua\ Profile.jpg");
+    background-size: cover;
+  }
+  .hello {
+    margin-left: 0rem;
+  }
+  .Im {
+    margin-left: 1rem;
+    margin-top: -2rem;
+    margin-bottom: 3rem;
+  }
+  .joshua {
+    font-size: 3.2rem;
+    margin-left: 0rem;
+    width: fit-content;
+  }
+  .CVbutton {
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  .joshPic {
+    width: 100%;
+    display: none;
+  }
+  .socialPic {
+    width: 2rem;
+    height: 2rem;
+  }
+  .firstUndderline {
+    display: flex;
+  }
+  .first {
+    border-bottom-style: solid;
+    border-bottom-color: #2e424d;
+    border-bottom-width: 0.1rem;
+    margin-bottom: 3rem;
+  }
+  .third {
+    border-bottom-style: none;
+
+    margin-bottom: 0rem;
+  }
+  .normalNav {
+    display: flex;
+    margin-left: 4rem;
+  }
+  .porticon {
+    padding-top: 0.5rem;
+  }
+  .concicon {
+    padding-top: 0.5rem;
+  }
+  .textNav {
+    display: none;
+  }
+  .ContactSec {
+    overflow: visible;
+  }
+  .ContactSec2 {
+    overflow: visible;
+  }
+  .gmailPic {
+    width: 5rem;
+    height: 5rem;
+  }
+  .gmailContact {
+    display: none;
+  }
+  .firstUndderline {
+    display: none;
+  }
+  .secondUnderline {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1rem;
+  }
+}
+
+@media (max-width: 320px) and (min-width: 0px) and (max-height: 910px) {
+  nav {
+    display: flex;
+
+    height: 3rem;
+    margin-bottom: 2rem;
+  }
+  .normalNav {
+    display: flex;
+    margin-left: 1.5rem;
+  }
+  .textNav {
+    display: none;
+  }
+  .con {
+    padding-top: 0.5rem;
+  }
+  .port {
+    padding-top: 0.5rem;
+  }
+
+  .body2 {
+    margin-left: 1.17rem;
+    height: fit-content;
+    overflow-x: hidden;
+  }
+  a {
+    margin-right: 1rem;
+  }
+  .socialIcon {
+    width: 2rem;
+    height: 2rem;
+  }
+  .profileicon {
+    width: 3rem;
+    height: 3rem;
+  }
+  .exicon {
+    width: 3rem;
+    height: 3rem;
+  }
+  .script {
+    flex-direction: column;
+  }
+  .aboutD {
+    width: 95%;
+    margin-left: 0.3rem;
+    overflow-y: visible;
+    height: fit-content;
+  }
+  .Experience {
+    width: 100%;
+    margin-top: 2rem;
+    border-left-style: none;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    padding-top: 2rem;
+    margin-left: 0rem;
+  }
+  .git1 {
+    margin-left: 0.1rem;
+  }
+  .inn {
+    margin-left: 0.3rem;
+    margin-right: 2rem;
+    border-right: rem;
+    width: 29%;
+    font-weight: 1000;
+    padding-left: 0.4rem;
+    padding-right: 1.3rem;
+  }
+  .josh {
+    height: 2rem;
+    width: 2rem;
+    margin-right: 4rem;
+  }
+  .slid {
+    margin-left: rem;
+    margin-top: 0.9rem;
+    padding-top: 2.5rem;
+    height: 24rem;
+
+    overflow-x: hidden;
+
+    overflow-y: visible;
+  }
+  .profileSection {
+    flex-direction: column;
+  }
+  .picturSpace {
+    margin-left: 7%;
+  }
+  .Socialsec {
+    flex-direction: column;
+  }
+  .PortfolioShit {
+    width: 100%;
+    height: fit-content;
+    margin-right: orem;
+    margin-left: -1rem;
+    border-bottom-style: solid;
+    border-bottom-color: #2e424d;
+    border-bottom-width: 0.2rem;
+  }
+
+  .p1 {
+    overflow: visible;
+  }
+  .pr {
+    margin-left: 1rem;
+  }
+  .pr {
+    margin-right: 1.5rem;
+  }
+  .frim {
+    margin-right: 2rem;
+    margin-bottom: 0rem;
+  }
+  .portPh1 {
+    width: 7.8rem;
+  }
+  .ssd {
+    width: fit-content;
+  }
+  .portp {
+    margin-left: -1rem;
+  }
+  .fulldiv {
+    margin: 0rem;
+  }
+  .web {
+    font-size: 2rem;
+    font-weight: 800;
+  }
+  .front {
+    color: #2e424d;
+
+    width: 100%;
+    margin-left: 0rem;
+    margin-top: 6rem;
+  }
+  .jks {
+    align-content: center;
+    align-items: center;
+
+    width: 100%;
+    margin-left: 0rem;
+    margin-top: 3rem;
+    margin-left: 2rem;
+  }
+  ul {
+    margin-left: 1rem;
+  }
+  li {
+    margin-right: 1.5rem;
+  }
+  .sec1 {
+    margin-top: -1rem;
+    margin-left: 0rem;
+    width: 100%;
+    background-image: url("Joshua\ Profile.jpg");
+    background-size: cover;
+  }
+  .hello {
+    margin-left: 0rem;
+  }
+  .Im {
+    margin-left: 1rem;
+    margin-top: -2rem;
+    margin-bottom: 3rem;
+  }
+  .joshua {
+    font-size: 2.5rem;
+    margin-left: 0rem;
+    width: fit-content;
+  }
+  .CVbutton {
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  .joshPic {
+    width: 100%;
+    display: none;
+  }
+  .socialPic {
+    width: 2rem;
+    height: 2rem;
+  }
+  . {
+    border-bottom-style: solid;
+    border-bottom-color: #2e424d;
+    border-bottom-width: 0.1rem;
+    margin-bottom: 1rem;
+  }
+  .third {
+    border-bottom-style: none;
+
+    margin-bottom: 0rem;
+  }
+  .ContactSec {
+    overflow: visible;
+  }
+  .ContactSec2 {
+    overflow: visible;
+  }
+  .gmailPic {
+    width: 5rem;
+    height: 5rem;
+  }
+  .gmailContact {
+    display: none;
+  }
+
+  .secondUnderline {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1rem;
+  }
+  .firstUndderline {
+    display: none;
+  }
+  nav {
+    margin-left: 0rem;
+    padding-left: 1rem;
+    justify-content: center;
+    width: fit-content;
+  }
+  .first {
+    border-bottom-style: solid;
+    border-bottom-color: #2e424d;
+    border-bottom-width: 0.1rem;
+    margin-bottom: 3cqi;
+  }
+}
+
+@media (max-width: 320px) and (min-width: 0px) and (max-height: 910px) {
+  .contactList {
+    height: 25rem;
+
+    width: 10rem;
+
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 0rem;
+    margin-top: 4rem;
+  }
+  .contactList li {
+    margin-bottom: 5rem;
+  }
+
+  .ContactSec {
+    margin: 0;
+  }
+  .c2 {
+    overflow: visible;
+    width: 18.2rem;
+
+    transform: translateX(-314%);
+    margin-left: rem;
+    height: 24rem;
+    background-color: #2e424d;
+    background-image: linear-gradient(#2e424d 0%, #2e424d 97%, #6594ad);
+  }
+  .sendDiv {
+    flex-direction: column;
+  }
+  .nameInput {
+    width: 15rem;
+    height: 2rem;
+    margin-bottom: 1rem;
+  }
+  .emailInput {
+    margin-left: 1rem;
+  }
+  .mainText {
+    margin-left: rem;
+    margin-top: 1.5rem;
+    width: 88%;
+    height: 30%;
+    margin-left: 1rem;
+  }
+  .sendButton {
+    margin-left: 4rem;
+  }
+}
+
+@media (max-width: 420px) and (min-width: 321px) and (max-height: 910px) {
+  .contactList {
+    height: 25rem;
+
+    width: 10rem;
+
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 0rem;
+    margin-top: 4rem;
+  }
+  .contactList li {
+    margin-bottom: 5rem;
+  }
+
+  .ContactSec {
+    margin: 0;
+  }
+  .c2 {
+    overflow: visible;
+    width: 18.2rem;
+
+    transform: translateX(-314%);
+    margin-left: rem;
+    height: 24rem;
+    background-color: #2e424d;
+    background-image: linear-gradient(#2e424d 0%, #2e424d 97%, #6594ad);
+  }
+  .sendDiv {
+    flex-direction: column;
+  }
+  .nameInput {
+    width: 15rem;
+    height: 2rem;
+    margin-bottom: 1rem;
+  }
+  .emailInput {
+    margin-left: 1rem;
+  }
+  .mainText {
+    margin-left: rem;
+    margin-top: 1.5rem;
+    width: 88%;
+    height: 30%;
+    margin-left: 1rem;
+  }
+  .sendButton {
+    margin-left: 4rem;
+  }
+  .web {
+    color: #2e424d;
+  }
+  .front {
+    background-color: #0000;
+    margin-top: 4rem;
+  }
+  .secondUnderline {
+    margin-top: 1rem;
+  }
+}
