@@ -95,32 +95,32 @@ nav {
   height: 4rem;
 }
 .exicon:hover {
-  content: url("expertise.png");
+  content: url("imgJ/expertise.png");
 }
 .socicon:hover {
-  content: url("Social Media free icons designed by Freepik.png");
+  content: url("imgJ/Social Media free icons designed by Freepik.png");
 }
 .profileicon:hover {
-  content: url("profile white 2 (1).png");
+  content: url("imgJ/profile white 2 (1).png");
 }
 .porticon:hover {
-  content: url("Portfolio1.png");
+  content: url("imgJ/Portfolio1.png");
 }
 .concicon:hover {
-  content: url("contact icon.png");
+  content: url("imgJ/contact icon.png");
 }
 
 .fb:hover {
-  content: url("facebook2.png");
+  content: url("imgJ/facebook2.png");
 }
 .twi:hover {
-  content: url("Twitter2.png");
+  content: url("imgJ/Twitter2.png");
 }
 .dis:hover {
-  content: url("discord2.png");
+  content: url("imgJ/discord2.png");
 }
 .link:hover {
-  content: url("Linkend2.png");
+  content: url("imgJ/Linkend2.png");
 }
 .profileSection {
   display: flex;
