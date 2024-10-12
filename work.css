@@ -488,8 +488,7 @@ li {
   background-color: #2e424d;
 }
 
-.name {
-}
+
 .nameInput {
   width: 10rem;
   height: 2rem;
@@ -546,8 +545,7 @@ li {
   margin-left: 1rem;
 }
 
-.contactSection {
-}
+
 .underlinedIcons {
   height: 90%;
   margin-top: 1rem;
@@ -1198,12 +1196,12 @@ h1 {
     width: 2rem;
     height: 2rem;
   }
-  . {
+  /* .  {
     border-bottom-style: solid;
     border-bottom-color: #2e424d;
     border-bottom-width: 0.1rem;
     margin-bottom: 1rem;
-  }
+  } */
   .third {
     border-bottom-style: none;
 
